@@ -1,0 +1,46 @@
+body{
+    background-color: #FFD771;
+    margin: 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 30px;
+    color: #D6A11B;
+    font-family: arial;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    color: #A57807;
+    font-family: arial;
+    text-align: center;
+}
+
+    font-size: 12px;
+    color: #A57807;
+    text-align: center;
+}
+
+p img{
+    max-width: 100%;
+}
+
+a{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.first{
+    font-size: 75px;
+    color: saddlebrown;
+}
+
+li{
+    font-size: 12px;
+    color: #A57807;
+    font-family: arial;
+    text-align: center;
+}
