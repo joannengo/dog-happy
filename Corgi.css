@@ -1,36 +1,39 @@
 body{
     background-color: #FFD771;
     margin: 0;
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2, h3{
+    font-size: 30px;
+    color: #5c2f00;
+    text-align: center;
+    font-family: 'Short Stack', cursive;
+}
 h1{
-    font-size: 30px;
-    color: #D6A11B;
-    font-family: arial;
-    text-align: center;
+    background-color: white;
+    padding: 30px;
 }
 
-h2{
-    font-size: 30px;
-    color: #A57807;
-    font-family: arial;
-    text-align: center;
-}
-
-    font-size: 12px;
+p{
+    font-size: 16px;
     color: #A57807;
     text-align: center;
 }
 
 p img{
-    max-width: 100%;
+    max-width: 60%;
 }
 
 a{
     font-size: 12px;
-    font-family: Arial;
+    color: #5c2f00;
+}
+a:hover{
+    color: white;
+    background-color: darkgoldenrod;
 }
 
 .first{
@@ -38,9 +41,11 @@ a{
     color: saddlebrown;
 }
 
+.small{
+    font-size: 20px;
+}
 li{
     font-size: 12px;
     color: #A57807;
-    font-family: arial;
     text-align: center;
 }
