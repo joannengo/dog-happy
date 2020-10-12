@@ -13,7 +13,6 @@ h1, h2, h3{
     font-family: 'Short Stack', cursive;
 }
 h1{
-    background-color: white;
     padding: 30px;
 }
 
@@ -21,6 +20,8 @@ p{
     font-size: 16px;
     color: #A57807;
     text-align: center;
+    border: 50px;
+    border-color: bisque;
 }
 
 p img{
