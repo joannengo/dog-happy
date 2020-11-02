@@ -1,52 +1,126 @@
 body{
-    background-color: #FFD771;
-    margin: 0;
-    max-width: 800px;
+    background-color: #ffd979;
+    max-width: 1000px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3{
-    font-size: 30px;
-    color: #5c2f00;
+h1, h2, h3, h4, h5{
+    font-family: 'Short Stack', Arial, Helvetica, sans-serif;
     text-align: center;
-    font-family: 'Short Stack', cursive;
+    color: whitesmoke; 
 }
+
 h1{
+    font-size: 80px;
     padding: 30px;
 }
 
+h2{
+    background-color: rgb(52, 90, 109);
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 52px;
+}
+
+h3{
+    color: whitesmoke;
+    border-width: 5px;
+    border-color: rgb(52, 90, 109);
+    max-width: max-content;
+    margin: auto;
+}
+
 p{
-    font-size: 16px;
+    font-size: 14px;
     color: #A57807;
     text-align: center;
-    border: 50px;
-    border-color: bisque;
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
 }
 
 p img{
-    max-width: 60%;
+    max-width: 400px;
 }
 
 a{
     font-size: 12px;
     color: #5c2f00;
 }
+
 a:hover{
     color: white;
-    background-color: darkgoldenrod;
+    background-color: rgb(52, 90, 109);
 }
 
-.first{
-    font-size: 75px;
-    color: saddlebrown;
+.hover-yellow:hover{
+    color: #ffd979;
+    background-color: rgb(101, 164, 196);
 }
 
-.small{
-    font-size: 20px;
-}
 li{
-    font-size: 12px;
+    font-size: 14px;
     color: #A57807;
     text-align: center;
+    max-width: 850px;
+    margin: auto;
+}
+
+.main{
+    border: 15px solid rgb(52, 90, 109);
+    background-color: rgb(52, 90, 109);
+}
+
+.sub-main{
+    border: 15px solid rgb(52, 90, 109);
+    background-color: rgb(52, 90, 109);
+}
+
+.top-bar{
+    background-color: rgb(52, 90, 109);
+    display:block;
+    padding:8px 16px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0
+    
+}
+
+.bar-item{
+    background-color: rgb(52, 90, 109);
+    max-width: max-content;
+    padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0
+}
+
+.left-bar{
+    position: static;
+    left: 0px;
+    width: 500px;
+    margin: auto;
+}
+
+.right-bar{
+    position: static;
+    right: 0px;
+    width: 500px;
+    margin: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > div {
+    padding: 10px;
 }
