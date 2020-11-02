@@ -13,7 +13,6 @@ h1, h2, h3, h4, h5{
 
 h1{
     font-size: 80px;
-    padding: 30px;
 }
 
 h2{
@@ -37,7 +36,8 @@ p{
     text-align: center;
     max-width: 850px;
     margin: auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p img{
@@ -103,15 +103,14 @@ li{
 .left-bar{
     position: static;
     left: 0px;
-    width: 500px;
+    width: 460px;
     margin: auto;
 }
 
 .right-bar{
     position: static;
-    right: 0px;
-    width: 500px;
-    margin: auto;
+    width: 460px;
+    vertical-align:top
 }
 
 .grid-container{
@@ -119,6 +118,7 @@ li{
     grid-template-columns: auto auto;
     grid-gap: 10px;
     padding: 10px;
+    max-width: 1000px;
 }
 
 .grid-container > div {
