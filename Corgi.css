@@ -25,7 +25,7 @@ body{
     width: 800px;
 }
 
-h1, h2, h3, h4, h5{
+h1, h2, h3, h5{
     font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
     text-align: center;
     color: whitesmoke; 
@@ -36,6 +36,9 @@ h2{
     font-size: 20px;
     text-align: left;
     padding-bottom: 40px;
+    width: auto;
+    height:24px;
+    overflow: hidden;
 }
 
 h3{
@@ -43,6 +46,11 @@ h3{
     border-width: 5px;
     border-color: rgb(52, 90, 109);
     margin-bottom: 15px;
+}
+
+h2 img{
+    max-width: 50px;
+    
 }
 .about-hero-image{
     background-image: url(https://content.fortune.com/wp-content/uploads/2017/08/512536165-e1510081190643.jpg);
@@ -56,6 +64,16 @@ h3{
 
 .happy-hero-image{
     background-image: url(https://tinyterrier.com/wp-content/uploads/2018/08/announce-new-puppy.jpg);
+    background-color: #cccccc;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.derpy-hero-image{
+    background-image: url(https://i.pinimg.com/originals/58/85/01/5885018bf96cb386e1ef5ac48f5d7c50.jpg);
     background-color: #cccccc;
     height: 480px;
     background-position: center;
@@ -94,12 +112,26 @@ li{
     margin: auto;
 }
 
-a{
+h2 a:link, a:visited{
+    background-color: rgb(52, 90, 109);
+    color: whitesmoke; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+      
+h2 a:hover, a:active {
+    color: whitesmoke;
+    background-color: rgb(101, 164, 196);
+}
+
+h5 a{
     font-size: 12px;
     color: #5c2f00;
 }
 
-a:hover{
+h5 a:hover{
     color: white;
     background-color: rgb(52, 90, 109);
 }
@@ -114,35 +146,35 @@ a:hover{
     background-color: rgb(52, 90, 109);
 }
 
-.sub-main{
-    border: 15px solid rgb(52, 90, 109);
+.bar-item-logo{
     background-color: rgb(52, 90, 109);
-}
-
-.top-bar{
-    background-color: rgb(52, 90, 109);
-    display:block;
-    padding:8px 16px;
-    text-align:left;
+    max-width: max-content;
+    padding:9px 16px;
+    float:left;
+    width:auto;
     border:none;
-    white-space:normal;
-    float:none;
+    display:inline;
     outline:0
-    
 }
 
 .bar-item{
     background-color: rgb(52, 90, 109);
     max-width: max-content;
-    padding:8px 16px;
+    padding:21px 16px;
     float:left;
     width:auto;
     border:none;
-    display:block;
+    display:inline;
     outline:0
 }
 
 .right-bar{
+    position: static;
+    width: 460px;
+    vertical-align:top
+}
+
+.left-bar{
     position: static;
     width: 460px;
     vertical-align:top
