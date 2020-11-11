@@ -1,52 +1,215 @@
 body{
-    background-color: #FFD771;
-    margin: 0;
-    max-width: 800px;
+    background-color: whitesmoke;
+    max-width: 1000px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3{
-    font-size: 30px;
-    color: #5c2f00;
-    text-align: center;
-    font-family: 'Short Stack', cursive;
+.hero-image{
+    background-image: url(https://www.allthingsdogs.com/wp-content/uploads/2019/11/Unique-Labrador-Names.jpg);
+    background-color: #cccccc;
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-h1{
-    padding: 30px;
+
+.hero-text{
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+}
+
+h1, h2, h3, h5{
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: whitesmoke; 
+}
+
+h2{
+    background-color: rgb(52, 90, 109);
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 40px;
+    width: auto;
+    height:24px;
+    overflow: hidden;
+}
+
+h3{
+    color: whitesmoke;
+    border-width: 5px;
+    border-color: rgb(52, 90, 109);
+    margin-bottom: 15px;
+}
+
+h2 img{
+    max-width: 50px;
+    
+}
+.about-hero-image{
+    background-image: url(https://content.fortune.com/wp-content/uploads/2017/08/512536165-e1510081190643.jpg);
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.happy-hero-image{
+    background-image: url(https://tinyterrier.com/wp-content/uploads/2018/08/announce-new-puppy.jpg);
+    background-color: #cccccc;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.derpy-hero-image{
+    background-image: url(https://i.pinimg.com/originals/58/85/01/5885018bf96cb386e1ef5ac48f5d7c50.jpg);
+    background-color: #cccccc;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.plain-bg{
+    background-color: rgb(255, 238, 187);
 }
 
 p{
-    font-size: 16px;
+    font-size: 14px;
     color: #A57807;
-    text-align: center;
-    border: 50px;
-    border-color: bisque;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p img{
-    max-width: 60%;
+    max-width: 460px;
 }
 
-a{
+p img:hover{
+    opacity: 0.5;
+}
+
+li{
+    font-size: 14px;
+    color: #A57807;
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+}
+
+h2 a:link, a:visited{
+    background-color: rgb(52, 90, 109);
+    color: whitesmoke; 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+      
+h2 a:hover, a:active {
+    color: whitesmoke;
+    background-color: rgb(101, 164, 196);
+}
+
+h5 a{
     font-size: 12px;
     color: #5c2f00;
 }
-a:hover{
+
+h5 a:hover{
     color: white;
-    background-color: darkgoldenrod;
+    background-color: rgb(52, 90, 109);
 }
 
-.first{
-    font-size: 75px;
-    color: saddlebrown;
+.hover-yellow:hover{
+    color: #ffd979;
+    background-color: rgb(101, 164, 196);
 }
 
-.small{
-    font-size: 20px;
+.main{
+    border: 15px solid rgb(52, 90, 109);
+    background-color: rgb(52, 90, 109);
 }
-li{
-    font-size: 12px;
-    color: #A57807;
-    text-align: center;
+
+.bar-item-logo{
+    background-color: rgb(52, 90, 109);
+    max-width: max-content;
+    padding:9px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:inline;
+    outline:0
+}
+
+.bar-item{
+    background-color: rgb(52, 90, 109);
+    max-width: max-content;
+    padding:21px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:inline;
+    outline:0
+}
+
+.right-bar{
+    position: static;
+    width: 460px;
+    vertical-align:top
+}
+
+.left-bar{
+    position: static;
+    width: 460px;
+    vertical-align:top
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.grid-container > div {
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+
+.column {
+flex: 10%;
+max-width: 50%;
+padding: 0 10px;
+}
+
+.column img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+.column img:hover{
+    opacity: 0.5;
 }
